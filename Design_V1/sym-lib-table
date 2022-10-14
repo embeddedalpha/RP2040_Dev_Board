@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/Symbols.pretty/RP2040.kicad_sym")(options "")(descr ""))
+  (lib (name "CSP-USC16-TR")(type "KiCad")(uri "${KIPRJMOD}/Symbols.pretty/CSP-USC16-TR.kicad_sym")(options "")(descr ""))
+)
