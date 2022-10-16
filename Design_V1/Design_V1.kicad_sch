@@ -59,6 +59,38 @@
     (property "Sheet file" "Ethernet.kicad_sch" (id 1) (at 117.475 96.4696 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "ETH_SCLK" input (at 117.475 71.755 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 5668ea49-3bd1-458c-906c-ba077a3d34f5)
+    )
+    (pin "ETH_nSCS" input (at 117.475 74.295 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 4154c3f9-0df0-4d64-aebb-a50abe2f3a6f)
+    )
+    (pin "ETH_SEN" input (at 117.475 76.835 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid c811347d-5232-4609-97e5-173021dc0341)
+    )
+    (pin "ETH_nRD" input (at 117.475 79.375 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 788a90ee-c63c-4b0c-bbbc-6684eb503ae8)
+    )
+    (pin "ETH_MOSI" input (at 117.475 81.915 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid c0e4742b-3c93-48a1-b621-eeb11c3eac86)
+    )
+    (pin "ETH_MISO" input (at 117.475 84.455 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 16a913d0-0f09-4ba0-91fd-d931ba24896b)
+    )
+    (pin "ETH_nCS" input (at 117.475 86.995 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 5323e784-5285-4d9b-89f2-8cbadf5cde14)
+    )
+    (pin "ETH_nWR" input (at 117.475 89.535 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 283c8533-cba5-40ad-babe-6314cc0f8565)
+    )
   )
 
   (sheet (at 14.605 17.145) (size 46.99 27.305) (fields_autoplaced)
@@ -195,6 +227,9 @@
     (path "/71070041-e598-4cf8-9b6e-932bbf134d95/36a622e5-4091-4a5e-bae0-b659b4043931"
       (reference "#PWR034") (unit 1) (value "+3.3VA") (footprint "")
     )
+    (path "/71070041-e598-4cf8-9b6e-932bbf134d95/777b310e-ae3f-48bb-bede-29564a6499c9"
+      (reference "#PWR035") (unit 1) (value "GND") (footprint "")
+    )
     (path "/9bd6305a-703c-44bf-adb0-bbf4076617c8/ed459d60-2755-4580-bbb0-62778a4d08b2"
       (reference "C1") (unit 1) (value "100nF") (footprint "")
     )
@@ -252,6 +287,24 @@
     (path "/71070041-e598-4cf8-9b6e-932bbf134d95/7c4b7d77-c40a-4911-a41b-ae64f912bffe"
       (reference "C19") (unit 1) (value "10uF") (footprint "")
     )
+    (path "/71070041-e598-4cf8-9b6e-932bbf134d95/93b15f42-6572-4430-8476-baaaf8f8187d"
+      (reference "D1") (unit 1) (value "LED") (footprint "")
+    )
+    (path "/71070041-e598-4cf8-9b6e-932bbf134d95/da0ab733-fde3-4261-93bf-98604aae72f3"
+      (reference "D2") (unit 1) (value "LED") (footprint "")
+    )
+    (path "/71070041-e598-4cf8-9b6e-932bbf134d95/94a99495-a41b-4012-a49c-ae45fcdd20aa"
+      (reference "D3") (unit 1) (value "LED") (footprint "")
+    )
+    (path "/71070041-e598-4cf8-9b6e-932bbf134d95/41ddf282-f863-4a31-ac23-5171a3e7c7eb"
+      (reference "D4") (unit 1) (value "LED") (footprint "")
+    )
+    (path "/71070041-e598-4cf8-9b6e-932bbf134d95/939d3060-f00b-4c26-afbc-f90524736e5b"
+      (reference "D5") (unit 1) (value "LED") (footprint "")
+    )
+    (path "/71070041-e598-4cf8-9b6e-932bbf134d95/10020d56-9d89-48ea-a17b-a6dbb4f77037"
+      (reference "D6") (unit 1) (value "LED") (footprint "")
+    )
     (path "/9bd6305a-703c-44bf-adb0-bbf4076617c8/5b35bf9a-9013-4dc9-b3c3-371e481d9e79"
       (reference "J1") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical_SMD")
     )
@@ -278,6 +331,24 @@
     )
     (path "/9bd6305a-703c-44bf-adb0-bbf4076617c8/e7a44a9c-f24e-4658-baac-a7214ddc78df"
       (reference "R5") (unit 1) (value "DNF") (footprint "")
+    )
+    (path "/71070041-e598-4cf8-9b6e-932bbf134d95/42c18bd7-55e8-4975-ae73-4671ab75336e"
+      (reference "R6") (unit 1) (value "1K") (footprint "")
+    )
+    (path "/71070041-e598-4cf8-9b6e-932bbf134d95/6a7cec4f-d61c-4537-be1c-54adf0e627ad"
+      (reference "R7") (unit 1) (value "1K") (footprint "")
+    )
+    (path "/71070041-e598-4cf8-9b6e-932bbf134d95/4aac27a7-e070-46e4-bd09-900031612217"
+      (reference "R8") (unit 1) (value "1K") (footprint "")
+    )
+    (path "/71070041-e598-4cf8-9b6e-932bbf134d95/4961eff0-5cd2-426b-b9ef-0d427d00198e"
+      (reference "R9") (unit 1) (value "1K") (footprint "")
+    )
+    (path "/71070041-e598-4cf8-9b6e-932bbf134d95/9df7e6d2-3d47-4d46-94fd-ee52d9014f7c"
+      (reference "R10") (unit 1) (value "1K") (footprint "")
+    )
+    (path "/71070041-e598-4cf8-9b6e-932bbf134d95/7aabb704-ff64-45ed-92c2-6cf437cd0499"
+      (reference "R11") (unit 1) (value "1K") (footprint "")
     )
     (path "/9bd6305a-703c-44bf-adb0-bbf4076617c8/4f7d8c71-9c89-47e1-bdd9-71ea2ff9470f"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "")
